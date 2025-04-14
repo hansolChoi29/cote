@@ -13,3 +13,4 @@ function solution(a, b) {
 //2*(-1)=-2
 //...
 // result +=a[i]*b[i]
+  // return a.reduce((acc, _, i) => acc += a[i] * b[i], 0);
