@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        String  사용자입력 = sc.next();
-        System.out.printf("Your score is %s point.", 사용자입력);
+        int 사용자입력 = sc.nextInt();
+        System.out.printf("Your score is %d point.", 사용자입력);
     }
 }
