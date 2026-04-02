@@ -8,7 +8,7 @@ public class Main {
         int book = 3000;
         int mask = 1000;
 
-        String 결과 = n >= book ? "book" : n == mask ? "mask" : "no";
+        String 결과 = n >= book ? "book" : n >= mask ? "mask" : "no";
         System.out.println(결과);
     }
 }
