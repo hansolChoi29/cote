@@ -10,18 +10,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int 성별 = sc.nextInt(); // 남자 -> 0, 여자 -> 1
         int 나이 = sc.nextInt();
-        if(성별 == 0){
-            if(나이 >= 19){
-                System.out.println("MAN");
-            }else{
-                System.out.println("BOY");
-            }
-        }else{
-            if(나이 >= 19){
-                System.out.println("WOMAN");
-            }else{
-                System.out.println("GIRL");
-            }
-        }
+        String[] 성인 = {"MAN", "WOMAN"};
+        String[] 미성년 = {"BOY", "GIRL"};
+        System.out.println(나이 >= 19? 성인[성별] : 미성년[성별]);
     }
 }
